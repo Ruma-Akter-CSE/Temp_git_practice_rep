@@ -9,18 +9,18 @@
 - Find and display the path to the bash executable using the which command.
 - Find current shell
 
-2. File and Directory Operations
+ [File and Directory Operations](#Create)
 - Create a directory named linux_fundamentals in your home directory.
 - Inside linux_fundamentals, create a subdirectory named scripts.
 - Create an empty file named example.txt inside the linux_fundamentals directory.
 - Copy example.txt to the scripts directory.
 - Move example.txt from linux_fundamentals to linux_fundamentals/backup
 
-3. Permissions
+3. [Permissions](#Permissions)
 - Change the permissions of example.txt to read and write for the owner, and read-only for the group and others.
 - Verify the permission changes using ls -l
   
-4. File Modification
+4. [File Modification](#Numeric-Permissions)
 - Create a file named example.txt in your home directory.
 - Change the owner of example.txt to a user named student
 - Change the group of example.txt to a group named students.
@@ -95,7 +95,7 @@
   ```
 ![Permissions](img/3.1.JPG)
 
-## Numeric Permissions
+## Numeric-Permissions
 
 - 'chmod': The command used to change the file mode (permissions).
 - '644': The numeric representation of the permissions you want to set.
