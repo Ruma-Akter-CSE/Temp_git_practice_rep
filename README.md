@@ -32,7 +32,7 @@ More info about dataset can be found here:
 
 ### Architecture
 
-![architecture](img/architecture.jpg)
+![architecture](1.1.jpg)
 
 ### Data Model
 
