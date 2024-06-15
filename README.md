@@ -9,7 +9,7 @@
 - Find and display the path to the bash executable using the which command.
 - Find current shell
 
- [File and Directory Operations](#Create)
+ 2. [File and Directory Operations](#Create)
 - Create a directory named linux_fundamentals in your home directory.
 - Inside linux_fundamentals, create a subdirectory named scripts.
 - Create an empty file named example.txt inside the linux_fundamentals directory.
