@@ -18,17 +18,31 @@ Here is the dataset used  - [Link](https://github.com/aditishraq/Ride-Sharing-ET
 More info about dataset can be found here:
 1. Website - https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 2. Data Dictionary - https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
+#Table of Contents
 
+# Table of content:
+### File System Navigation
 
-### Tools & Technologies
+- List the contents of the home directory.
+- Change the current directory to /var/log and list its contents.
+- Find and display the path to the bash executable using the which command.
+- Find current shell
 
-- Cloud - [**Google Cloud Platform**](https://cloud.google.com)
+### File and Directory Operations
+- Create a directory named linux_fundamentals in your home directory.
+- Inside linux_fundamentals, create a subdirectory named scripts.
+- Create an empty file named example.txt inside the linux_fundamentals directory.
+- Copy example.txt to the scripts directory.
+- Move example.txt from linux_fundamentals to linux_fundamentals/backup
 
-- Transformation - [**Mage**]( https://www.mage.ai/)
-- Data Lake - [**Google Cloud Storage**](https://cloud.google.com/storage)
-- Data Warehouse - [**BigQuery**](https://cloud.google.com/bigquery)
-- Data Visualization - [**Looker Studio**](https://datastudio.google.com/overview)
-- Language - [**Python**](https://www.python.org)
+### Permissions
+- Change the permissions of example.txt to read and write for the owner, and read-only for the group and others.
+- Verify the permission changes using ls -l
+### File Modification
+- Create a file named example.txt in your home directory.
+- Change the owner of example.txt to a user named student
+- Change the group of example.txt to a group named students.
+- Verify the changes using appropriate commands.
 
 ### Architecture
 
