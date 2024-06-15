@@ -1,24 +1,5 @@
 # linux command guidline
 
-A data pipeline with  GCP Storage, Python, Compute Instance, Mage Data Pipeline Tool, BigQuery, and Looker Studio.
-
-
-## Description
-
-### Objective
-
-The goal of this project is to analyze Uber data using tools like GCP Storage, Python, Compute Instance, Mage Data Pipeline Tool, BigQuery, and Looker Studio. We aim to explore TLC Trip Record Data for yellow and green taxi trips, focusing on details like dates/times, locations, distances, fares, rate types, payment types, and passenger counts. The objective is to gain insights and perform data analytics for informed decision-making.
-
-### Dataset
-
-TLC Trip Record Data Yellow and green taxi trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts. 
-
-Here is the dataset used  - [Link](https://github.com/aditishraq/Ride-Sharing-ETL-Pipeline/blob/main/data/ride_share.csv)
-
-More info about dataset can be found here:
-1. Website - https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
-2. Data Dictionary - https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
-#Table of Contents
 
 # Table of content:
 ### File System Navigation
@@ -45,24 +26,69 @@ More info about dataset can be found here:
 - Verify the changes using appropriate commands.
 
 ### Architecture
+- 'ls': The command to list directory contents.
+- '~': The shorthand symbol for the current user's home directory.
+![List](img/1.1.JPG)
 
-![architecture](img/1.1.JPG)
-![architecture](img/1.2.JPG)
-![architecture](img/1.3.JPG)
-![architecture](img/2.1.JPG)
-![architecture](img/2.2.JPG)
-![architecture](img/2.3.JPG)
-![architecture](img/2.3.JPG)
-![architecture](img/2.4.JPG)
-![architecture](img/3.1.JPG)
-![architecture](img/3.2.JPG)
+- Change the current directory to /var/log and list its contents
+- The 'cd' command stands for "change directory.
+![Change the Directory](img/1.2.JPG)
 
-### Data Model
+- The 'which' command is used to locate the executable file associated with a given command.
+- 'which bash' will display the path to the bash executable.
+- 
+### echo $SHELL
+- The 'echo' command is used to display a line of text or the value of a variable.
+- '$SHELL' is an environment variable that stores the path of the default shell for the current user.
+- 'echo $SHELL' will print the path of the user's default shell.
+![Find and display](img/1.3.JPG)
 
-![datamodel](img/data_model.jpg)
+- The 'mkdir' command in Unix-based systems is used to create new directories. 
+- This command creates a directory named directory_name in the current working directory.
+- The 'mkdir' command with the '-p' option allows you to create parent directories as needed.
+``` bash
+- mkdir directory_name
+- mkdir -p parent/child/grandchild
+```
+![Create a Directory](img/2.1.JPG)
 
-### Dashboard
+-The touch command is used to create an empty file or update the access and modification timestamps of an existing file.
 
-![dashboard](img/ride_sharing_dashboard.jpg)
+![Create a File](img/2.2.JPG)
+
+- The 'cp' command is used to copy files and directories.
+![copy files](img/2.3.JPG)
+
+- The 'mv' command is used to move or rename files and directories.
+- The 'ls' command with the '-l' option lists directory contents in long format, providing detailed information such as permissions, number of links, owner, group, size, and modification time.
+  
+![move file](img/2.4.JPG)
+
+- This command creates a new group named devops_group_1 using administrative privileges.
+- 'sudo' allows you to run commands with superuser privileges.
+- 'groupadd' is the command to add a new group.
+- 'devops_group_1' is the name of the new group being created.
+- 'getent' is used to query these databases.
+- 'group' specifies that you want to query the group database.
+- 'cat' is used to concatenate and display file content.
+- '/etc/group' is the file that contains group information.
+  ```bash
+  sudo groupadd devops_group_1
+  getent group devops_group_1
+  cat /etc/groupcat /etc/group | grep devops_group_1
+  ```
+![Permissions](img/3.1.JPG)
+
+- 'chmod': The command used to change the file mode (permissions).
+- '644': The numeric representation of the permissions you want to set.
+- 
+### Permissions Set by 'chmod 644'
+-6 (Owner): Read (4) + Write (2) = rw-
+-4 (Group): Read (4) = r--
+-4 (Others): Read (4) = r--
+
+![Numeric Permissions](img/3.2.JPG)
+
+- The chmod 644 command is used to change the permissions of a file or directory in Unix-based systems
 
 
