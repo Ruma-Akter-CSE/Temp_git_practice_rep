@@ -19,6 +19,7 @@
 ### Permissions
 - Change the permissions of example.txt to read and write for the owner, and read-only for the group and others.
 - Verify the permission changes using ls -l
+  
 ### File Modification
 - Create a file named example.txt in your home directory.
 - Change the owner of example.txt to a user named student
@@ -33,16 +34,24 @@
 ### Change the Directory
 - Change the current directory to /var/log and list its contents
 - The 'cd' command stands for "change directory.
+- For example, cd /path/to/directory will change the current directory to /path/to/directory.
+  ```bash
+  cd /var/log
+  ```
 ![Change the Directory](img/1.2.JPG)
 
 ### Find and display
 - The 'which' command is used to locate the executable file associated with a given command.
 - 'which bash' will display the path to the bash executable.
-- 
+
 ### echo $SHELL
 - The 'echo' command is used to display a line of text or the value of a variable.
 - '$SHELL' is an environment variable that stores the path of the default shell for the current user.
 - 'echo $SHELL' will print the path of the user's default shell.
+  ```bash
+  which bash
+  echo $SHELL
+  ```
 ![Find and display](img/1.3.JPG)
 
 ### Create a Directory
@@ -90,9 +99,9 @@
 - 'chmod': The command used to change the file mode (permissions).
 - '644': The numeric representation of the permissions you want to set.
 ### Permissions Set by 'chmod 644'
--6 (Owner): Read (4) + Write (2) = rw-
--4 (Group): Read (4) = r--
--4 (Others): Read (4) = r--
+- 6 (Owner): Read (4) + Write (2) = rw-
+- 4 (Group): Read (4) = r--
+- 4 (Others): Read (4) = r--
 
 ![Numeric Permissions](img/3.2.JPG)
 
