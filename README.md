@@ -1,4 +1,4 @@
-# Ride Sharing ETL Pipeline
+# linux command guidline
 
 A data pipeline with  GCP Storage, Python, Compute Instance, Mage Data Pipeline Tool, BigQuery, and Looker Studio.
 
@@ -32,7 +32,7 @@ More info about dataset can be found here:
 
 ### Architecture
 
-![architecture](imf_1.jpg)
+![architecture](img-1.JPG)
 
 ### Data Model
 
