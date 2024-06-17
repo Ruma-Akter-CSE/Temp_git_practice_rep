@@ -7,7 +7,7 @@
 - List the contents of the home directory.
 - Change the current directory to /var/log and list its contents.
 - Find and display the path to the bash executable using the which command.
-- Find current shell
+- Find current shell.
 
  2. [File and Directory Operations](#Create)
 - Create a directory named linux_fundamentals in your home directory.
@@ -22,7 +22,7 @@
   
 4. [File Modification](#Numeric-Permissions)
 - Create a file named example.txt in your home directory.
-- Change the owner of example.txt to a user named student
+- Change the owner of example.txt to a user named student.
 - Change the group of example.txt to a group named students.
 - Verify the changes using appropriate commands.
 
@@ -33,7 +33,7 @@
 ![List](img/1.1.JPG)
 
 ## Change the Directory
-- Change the current directory to /var/log and list its contents
+- Change the current directory to /var/log and list its contents.
 - The 'cd' command stands for "change directory.
 - For example, cd /path/to/directory will change the current directory to /path/to/directory.
   ```bash
@@ -99,6 +99,7 @@
 
 - 'chmod': The command used to change the file mode (permissions).
 - '644': The numeric representation of the permissions you want to set.
+  
 ## Permissions Set by 'chmod 644'
 - 6 (Owner): Read (4) + Write (2) = rw-
 - 4 (Group): Read (4) = r--
@@ -106,6 +107,6 @@
 
 ![Numeric Permissions](img/3.2.JPG)
 
-- The chmod 644 command is used to change the permissions of a file or directory in Unix-based systems
+- The chmod 644 command is used to change the permissions of a file or directory in Unix-based systems.
 
 
