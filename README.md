@@ -108,5 +108,6 @@
 ![Numeric Permissions](img/3.2.JPG)
 
 - The chmod 644 command is used to change the permissions of a file or directory in Unix-based systems.
-
+- https://github.com/Roja-Islam/Practice.git
+- git@github.com:Roja-Islam/Practice.git
 
